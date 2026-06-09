@@ -26,7 +26,7 @@ class PostFilterDto
             userId: $data['userId'] ?? 0,
             publishedType: $data['publishedType'] ?? PublishedType::ALL,
             tagId: $data['tagId'] ?? 0,
-            trashedType: $data['trashedType']
+            trashedType: $data['trashedType'] ?? TrashedType::ALL
         );
     }
 }

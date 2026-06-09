@@ -11,7 +11,7 @@ This is blog web application, used laravel 12 framework (livewire starter kit)
 3. Create `.env` file by copying the `.env.example`. You may use the command to do that `cp .env.example .env`
 4. Update the database name and credentials in `.env` file
 5. Run the command `sail up -d` (consider adding this to your alias: `alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'`)
-6. Run the command `sail artisan migrate`
+6. Run the command `sail artisan migrate --seed`
 7. Run the command `sail artisan key:generate`
 8. Link storage directory: `sail artisan storage:link`
 9. Run the command `sail npm install`
