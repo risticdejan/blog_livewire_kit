@@ -28,6 +28,18 @@ A blog web application built on Laravel 12 with Livewire, Tailwind CSS, and Vite
 - Font Awesome for icons
 - Laravel Debugbar for local debugging
 
+## Screenshots
+
+Below are screenshots from the application.
+
+![Home page](git_images/home.png)
+
+![Blog listing](git_images/blog.png)
+
+![Admin dashboard](git_images/dashboard.png)
+
+![Admin posts management](git_images/dashboard_posts.png)
+
 ## Installation
 
 ### Docker and Sail
